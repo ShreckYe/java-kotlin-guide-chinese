@@ -17,9 +17,9 @@
 1. 接口与抽象类
 
 理解进阶实战知识：
-1. 常用数据结构：Iterator、List、Set、Map、ArrayList、HashSet、TreeSet、HashMap、TreeMap、AbstractList、AbstractSet、AbstractMap等（哪些是接口、抽象类、非抽象类？每一个又继承/实现了哪些类/接口？）
+1. 常用数据结构：Iterable（Iterator）、Collection、List、Set、Map、ArrayList、LinkedList、HashSet、TreeSet、HashMap、TreeMap、AbstractList、AbstractSet、AbstractMap等（哪些是接口、抽象类、非抽象类？每一个又继承/实现了哪些类/接口？）
 1. 泛型
-1. Java8的lambda表达式
+1. Java 8的lambda表达式
 
 上文未涉及的其他知识可以现学现用，与实战相结合更合适，不需要在没有实际项目经验和项目需求的时候提前盲目学习。
 
@@ -33,7 +33,7 @@
 
 ### 进阶教程
 1. 系统理解Java的每一个细节：《Java编程思想》
-1. 从软件工程和编程语言理论的角度了解Java的常用设计模式、常见错误、语言设计的利与弊等，高效编码：《Effective Java》
+1. 从软件工程和编程语言理论等的角度了解Java的常用设计模式、常见错误、语言设计的利与弊等，高效编码：《Effective Java》
 1. 理解JVM（Java虚拟机）并联系操作系统、编译器等知识
 
 ## 学习Kotlin
