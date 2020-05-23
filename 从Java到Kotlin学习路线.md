@@ -30,6 +30,7 @@
 ### 推荐入门教程
 1. 英文交互式APP教程：[Java Tutorial | SoloLearn: Learn to code for FREE!](https://www.sololearn.com/Course/Java/)
 1. 中文教程：[Java 教程 | 菜鸟教程](https://www.runoob.com/java/java-tutorial.html)中的以上知识点相关内容
+1. Coursera上杜克大学提供的Java课程：[Java Programming and Software Engineering Fundamentals | Coursera](https://www.coursera.org/specializations/java-programming)
 
 ### 进阶教程
 1. 系统理解Java的每一个细节：《Java编程思想》
@@ -37,12 +38,49 @@
 1. 理解JVM（Java虚拟机）并联系操作系统、编译器等知识
 
 ## 学习Kotlin
-Kotlin基本可以实现Java能实现的所有功能，可以与Java相互调用、语法更加简洁、更好地支持函数式编程与DSL、并且拥有强大的跨平台性除兼容JVM生态外可兼容JavaScript生态、Android生态、iOS生态和LLVM支持的原生生态。
+Kotlin是由开发本文推荐的著名Java IDE即IntelliJ IDEA的JetBrains公司开发的一门开源编程语言。JetBrains公司在多年使用Java语言进行开发的过程中，意识到了Java存在的诸多软件工程层面的问题与不便，于是开发出Kotlin语言致力于解决这些问题与不便。Kotlin基本可以实现Java能实现的所有功能，可以与Java相互调用、语法更加简洁、更好地支持函数式编程与DSL、并且拥有强大的跨平台性（除兼电脑端与Andoid端JVM平台外还可兼容Web端JavaScript生态、iOS生态和LLVM支持的电脑端原生生态）。Kotlin语言吸收了在它之前推出的JVM语言如Scala等的优点，同时取舍了这些语言中一些过于复杂的功能以降低其学习门槛。
 
-详细内容未完待续。
+官方网站：[Kotlin Programming Language](https://kotlinlang.org/)
+
+### 知识点（Java涉及并且语法类似的知识点已省略）
+以下知识点参照官方参考。
+
+工程实战所需常用知识点：
+1. 开始（重点：通过思考与Java的异同点对比记忆）
+   1. 基本语法
+   1. 习惯用法
+   1. 编码规范
+1. 基础
+   1. 基本类型（重点：首字母均为大写）
+   1. 包与导入（重点：`import ... as ...`写法）
+   1. 控制流（重点：if表达式、when表达式、for循环）
+   1. 返回与跳转（无重点）
+1. 类与对象（重点：思考与Java的异同点、属性与其JVM实现、拓展函数与拓展属性、数据类、泛型与型变、类型别名）
+1. 函数与Lambda表达式
+1. 集合操作与函数式编程（重点：集合高阶函数）
+1. 其他零散较重要特性：空安全、操作符重载、Java互操作
+
+进阶内容知识点：
+1. 协程
+1. 跨平台开发
+1. DSL
+
+根据工程需要学习的知识点：
+1. 服务器端开发（Ktor、Vert.x、Spring）
+1. Android开发（Kotlin已经是Android开发的官方语言之一，并且在官方的推动下有取代Java的趋势，Android相关知识点本文不详述。）
+1. Web端开发（JavaScript支持与kotlinx.html等）
+1. 基于LLVM的原生平台开发（相比JVM版本速度较慢暂不推荐用于大型工程）
+1. iOS平台开发（可与Objective-C与Swift互操作）
 
 ### 推荐教程
-详细内容未完待续。
+1. 官方参考：[Reference - Kotlin Programming Language](https://kotlinlang.org/docs/reference/)
+1. 官方参考中文版翻译：[Reference - Kotlin 语言中文站](https://www.kotlincn.net/docs/reference/)
+1. SoloLearn APP 中有一个简短的Kotlin教程
+1. Coursera上JetBrains公司提供的Kotlin课程：[Kotlin for Java Developers | Coursera](https://www.coursera.org/learn/kotlin-for-java-developers)
+
+### 更多进阶内容
+1. 项目编译自动化工具Gradle
+1. 函数式编程与类型系统进阶：推荐学习Scala
 
 ## Scala
 Scala是JVM上的以函数式编程为主的多范式语言，很好地结合了面向对象编程（代表语言：Java）与函数式编程（代表语言：Haskell）两种范式，常用于并行计算、大数据处理等。由于出自学术界，此门语言难度较大，基本入门需要一定的数据结构与算法、操作系统的计算机科学知识基础，而进阶理解需要一定的编译原理、编程语言理论、计算模型、类型系统的理论计算机科学知识基础和线性代数、抽象代数和范畴论的数学知识基础。
@@ -50,5 +88,5 @@ Scala是JVM上的以函数式编程为主的多范式语言，很好地结合了
 若你想要学习Scala，可以：
 1. 参考知乎上诸多大神对于这个语言的评价
 1. 通过Spark等大相关数据处理框架入门
-1. 学习作者推荐的Coursera上由EPFL开设、Scala创始人Martin Odersky教授等主讲的[Functional Programming in Scala](https://www.coursera.org/specializations/scala)专辑
+1. 学习Coursera上由EPFL开设、Scala创始人Martin Odersky教授等主讲的[Functional Programming in Scala](https://www.coursera.org/specializations/scala)专辑
 1. 购买Scala相关书籍
