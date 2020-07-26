@@ -24,7 +24,7 @@
 上文未涉及的其他知识可以现学现用，与实战相结合更合适，不需要在没有实际项目经验和项目需求的时候提前盲目学习。
 
 ### 环境配置
-安装JDK，最新版本为14：http://jdk.java.net/14/
+安装JDK，最新版本为14：http://jdk.java.net/14/  
 安装IDE，推荐IntelliJ IDEA Community：https://www.jetbrains.com/idea/download/
 
 ### 推荐入门教程
