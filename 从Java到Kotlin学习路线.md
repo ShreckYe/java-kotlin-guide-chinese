@@ -24,7 +24,7 @@
 上文未涉及的其他知识可以现学现用，与实战相结合更合适，不需要在没有实际项目经验和项目需求的时候提前盲目学习。
 
 ### 环境配置
-安装JDK，最新版本为14：http://jdk.java.net/14/
+安装JDK，最新版本为14：http://jdk.java.net/14/  
 安装IDE，推荐IntelliJ IDEA Community：https://www.jetbrains.com/idea/download/
 
 ### 推荐入门教程
@@ -82,11 +82,16 @@ Kotlin是由开发本文推荐的著名Java IDE即IntelliJ IDEA的JetBrains公�
 1. 项目编译自动化工具Gradle
 1. 函数式编程与类型系统进阶：推荐学习Scala
 
-## Scala
-Scala是JVM上的以函数式编程为主的多范式语言，很好地结合了面向对象编程（代表语言：Java）与函数式编程（代表语言：Haskell）两种范式，常用于并行计算、大数据处理等。由于出自学术界，此门语言难度较大，基本入门需要一定的数据结构与算法、操作系统的计算机科学知识基础，而进阶理解需要一定的编译原理、编程语言理论、计算模型、类型系统的理论计算机科学知识基础和线性代数、抽象代数和范畴论的数学知识基础。
+## Scala与其他函数式编程语言
+Scala是JVM上的以函数式编程为主的多范式语言，很好地结合了面向对象编程（代表语言：Smalltalk、Java）与函数式编程（代表语言：Lisp、Haskell）两种范式，常用于并行计算、大数据处理等。由于出自学术界，此门语言难度较大，基本入门需要一定的数据结构与算法、操作系统的计算机科学知识基础，而进阶理解需要一定的编译原理、编程语言理论、计算模型、类型系统的理论计算机科学知识基础和线性代数、抽象代数和范畴论的理论计算机科学和数学知识基础。Kotlin的语法和Scala极为相近，并且从Scala学习到了很多特性。
 
 若你想要学习Scala，可以：
 1. 参考知乎上诸多大神对于这个语言的评价
 1. 通过Spark等大相关数据处理框架入门
 1. 学习Coursera上由EPFL开设、Scala创始人Martin Odersky教授等主讲的[Functional Programming in Scala](https://www.coursera.org/specializations/scala)专辑
 1. 购买Scala相关书籍
+
+Scala语言结合了两大范式，但有一些研究编程语言理论与函数式编程的专家（如Philip Wadler）并不认同面向对象范式，因此你也可以学习以下不掺杂面向对象范式的函数式编程语言：
+1. Haskell
+1. ML系语言（如OCaml、Standard ML等）
+1. Lisp系语言（如Clojure、Common Lisp、Racket、Scheme等）
