@@ -25,7 +25,7 @@
 上文未涉及的其他知识可以现学现用，与实战相结合更合适，不需要在没有实际项目经验和项目需求的时候提前盲目学习。
 
 ### 环境配置
-安装JDK，最新LTS版本为11：https://www.oracle.com/java/technologies/javase-jdk11-downloads.html （也可通过包管理器、AdoptJDK、LebricaJDK等方式安装，更加方便管理）  
+安装JDK，最新LTS版本为11：https://www.oracle.com/java/technologies/javase-jdk11-downloads.html （也可通过包管理器、AdoptJDK、Lebrica JDK等方式安装，更加方便管理）  
 安装IDE，推荐IntelliJ IDEA Community：https://www.jetbrains.com/idea/download/
 
 ### 推荐入门教程
